@@ -1,299 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1, viewport-fit=cover"
-		/>
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<title>
-			Dashboard - Tabler - Premium and Open Source dashboard template with
-			responsive and high quality UI.
-		</title>
-		<!-- CSS files -->
-		<link href="./dist/css/tabler.css" rel="stylesheet" />
-		<link href="./dist/css/tabler-flags.css" rel="stylesheet" />
-		<link href="./dist/css/tabler-payments.css" rel="stylesheet" />
-		<link href="./dist/css/tabler-vendors.css" rel="stylesheet" />
-		<link href="./dist/css/demo.css" rel="stylesheet" />
-		<style>
-			@import url("https://rsms.me/inter/inter.css");
-			:root {
-				--tblr-font-sans-serif: Inter, -apple-system, BlinkMacSystemFont,
-					San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
-			}
-		</style>
-		<script src="components/table.js" type="text/javascript" defer></script>
-	</head>
-	<body>
-		<script src="./dist/js/demo-theme.min.js?1668287865"></script>
-		<div class="page">
-			<!-- Sidebar -->
-			<aside class="navbar navbar-vertical navbar-expand-lg navbar-dark">
-				<div class="container-fluid">
-					<button
-						class="navbar-toggler"
-						type="button"
-						data-bs-toggle="collapse"
-						data-bs-target="#sidebar-menu"
-						aria-controls="sidebar-menu"
-						aria-expanded="false"
-						aria-label="Toggle navigation"
-					>
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<h1 class="navbar-brand navbar-brand-autodark">
-						<a href=".">
-							<!-- <img src="./static/logo-white.svg" width="110" height="32" alt="Tabler" class="navbar-brand-image">  -->
-							SiteScribe
-						</a>
-					</h1>
-					<div class="collapse navbar-collapse" id="sidebar-menu">
-						<ul class="navbar-nav pt-lg-3">
-							<li class="nav-item">
-								<a class="nav-link" href="./layout-vertical.html">
-									<span
-										class="nav-link-icon d-md-none d-lg-inline-block"
-										><!-- Download SVG icon from http://tabler-icons.io/i/home -->
-										<svg
-											xmlns="http://www.w3.org/2000/svg"
-											class="icon"
-											width="24"
-											height="24"
-											viewBox="0 0 24 24"
-											stroke-width="2"
-											stroke="currentColor"
-											fill="none"
-											stroke-linecap="round"
-											stroke-linejoin="round"
-										>
-											<path
-												stroke="none"
-												d="M0 0h24v24H0z"
-												fill="none"
-											/>
-											<polyline
-												points="5 12 3 12 12 3 21 12 19 12"
-											/>
-											<path
-												d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"
-											/>
-											<path
-												d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6"
-											/>
-										</svg>
-									</span>
-									<span class="nav-link-title"> Dashboard </span>
-								</a>
-							</li>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+      Dashboard - Tabler - Premium and Open Source dashboard template with
+      responsive and high quality UI.
+    </title>
+    <!-- CSS files -->
+    <link href="./dist/css/tabler.css" rel="stylesheet" />
+    <link href="./dist/css/tabler-flags.css" rel="stylesheet" />
+    <link href="./dist/css/tabler-payments.css" rel="stylesheet" />
+    <link href="./dist/css/tabler-vendors.css" rel="stylesheet" />
+    <link href="./dist/css/demo.css" rel="stylesheet" />
+    <style>
+      @import url("https://rsms.me/inter/inter.css");
+      :root {
+        --tblr-font-sans-serif: Inter, -apple-system, BlinkMacSystemFont,
+          San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
+      }
+    </style>
+    <script src="components/table.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <script src="./dist/js/demo-theme.min.js?1668287865"></script>
+    <div class="page">
+      <!-- Sidebar -->
+      <aside class="navbar navbar-vertical navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#sidebar-menu"
+            aria-controls="sidebar-menu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <h1 class="navbar-brand navbar-brand-autodark">
+            <a href=".">
+              <!-- <img src="./static/logo-white.svg" width="110" height="32" alt="Tabler" class="navbar-brand-image">  -->
+              SiteScribe
+            </a>
+          </h1>
+          <div class="collapse navbar-collapse" id="sidebar-menu">
+            <ul class="navbar-nav pt-lg-3">
+              <li class="nav-item">
+                <a class="nav-link" href="./layout-vertical.html">
+                  <span class="nav-link-icon d-md-none d-lg-inline-block"
+                    ><!-- Download SVG icon from http://tabler-icons.io/i/home -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <polyline points="5 12 3 12 12 3 21 12 19 12" />
+                      <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+                      <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+                    </svg>
+                  </span>
+                  <span class="nav-link-title"> Dashboard </span>
+                </a>
+              </li>
 
-							<li class="nav-item">
-								<a class="nav-link" href="./organisation.html">
-									<span
-										class="nav-link-icon d-md-none d-lg-inline-block"
-										><!-- Download SVG icon from http://tabler-icons.io/i/checkbox -->
-										<svg
-											xmlns="http://www.w3.org/2000/svg"
-											class="icon"
-											width="24"
-											height="24"
-											viewBox="0 0 24 24"
-											stroke-width="2"
-											stroke="currentColor"
-											fill="none"
-											stroke-linecap="round"
-											stroke-linejoin="round"
-										>
-											<path
-												stroke="none"
-												d="M0 0h24v24H0z"
-												fill="none"
-											/>
-											<polyline points="9 11 12 14 20 6" />
-											<path
-												d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9"
-											/>
-										</svg>
-									</span>
-									<span class="nav-link-title"> Organisation </span>
-								</a>
-							</li>
+              <li class="nav-item">
+                <a class="nav-link" href="./organisation.html">
+                  <span class="nav-link-icon d-md-none d-lg-inline-block"
+                    ><!-- Download SVG icon from http://tabler-icons.io/i/checkbox -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <polyline points="9 11 12 14 20 6" />
+                      <path
+                        d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9"
+                      />
+                    </svg>
+                  </span>
+                  <span class="nav-link-title"> Organisation </span>
+                </a>
+              </li>
 
-							<li class="nav-item">
-								<a class="nav-link" href="./form-elements.html">
-									<span
-										class="nav-link-icon d-md-none d-lg-inline-block"
-										><!-- Download SVG icon from http://tabler-icons.io/i/checkbox -->
-										<svg
-											xmlns="http://www.w3.org/2000/svg"
-											class="icon"
-											width="24"
-											height="24"
-											viewBox="0 0 24 24"
-											stroke-width="2"
-											stroke="currentColor"
-											fill="none"
-											stroke-linecap="round"
-											stroke-linejoin="round"
-										>
-											<path
-												stroke="none"
-												d="M0 0h24v24H0z"
-												fill="none"
-											/>
-											<polyline points="9 11 12 14 20 6" />
-											<path
-												d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9"
-											/>
-										</svg>
-									</span>
-									<span class="nav-link-title">
-										Bills & Subcriptions
-									</span>
-								</a>
-							</li>
+              <li class="nav-item">
+                <a class="nav-link" href="./form-elements.html">
+                  <span class="nav-link-icon d-md-none d-lg-inline-block"
+                    ><!-- Download SVG icon from http://tabler-icons.io/i/checkbox -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <polyline points="9 11 12 14 20 6" />
+                      <path
+                        d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9"
+                      />
+                    </svg>
+                  </span>
+                  <span class="nav-link-title"> Bills & Subcriptions </span>
+                </a>
+              </li>
 
-							<li class="nav-item">
-								<a class="nav-link" href="./form-elements.html">
-									<span
-										class="nav-link-icon d-md-none d-lg-inline-block"
-										><!-- Download SVG icon from http://tabler-icons.io/i/checkbox -->
-										<svg
-											xmlns="http://www.w3.org/2000/svg"
-											class="icon"
-											width="24"
-											height="24"
-											viewBox="0 0 24 24"
-											stroke-width="2"
-											stroke="currentColor"
-											fill="none"
-											stroke-linecap="round"
-											stroke-linejoin="round"
-										>
-											<path
-												stroke="none"
-												d="M0 0h24v24H0z"
-												fill="none"
-											/>
-											<polyline points="9 11 12 14 20 6" />
-											<path
-												d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9"
-											/>
-										</svg>
-									</span>
-									<span class="nav-link-title"> Settings </span>
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</aside>
-			<div class="page-wrapper">
-				<!-- Page body -->
-				<div class="page-body">
-					<div class="container-xl">
-						<div class="row row-deck row-cards">
-							<div
-								class="d-flex justify-content-between align-items-center w-100"
-							>
-								<h2 class="page-title mt-3">Edit Organisation</h2>
-							</div>
+              <li class="nav-item">
+                <a class="nav-link" href="./form-elements.html">
+                  <span class="nav-link-icon d-md-none d-lg-inline-block"
+                    ><!-- Download SVG icon from http://tabler-icons.io/i/checkbox -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <polyline points="9 11 12 14 20 6" />
+                      <path
+                        d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9"
+                      />
+                    </svg>
+                  </span>
+                  <span class="nav-link-title"> Settings </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+      <div class="page-wrapper">
+        <!-- Page body -->
+        <div class="page-body">
+          <div class="container-xl">
+            <div class="row row-deck row-cards">
+              <div
+                class="d-flex justify-content-between align-items-center w-100"
+              >
+                <h2 class="page-title mt-3">Edit Organisation</h2>
+              </div>
 
-							<div class="col-12">
-								<div class="card">
-									<div class="card-body p-4" style="width: 50%">
-										<div
-											class="d-flex mb-4 align-items-center justify-content-between"
-										>
-											<label class="form-label required"
-												>Org Name</label
-											>
-											<input
-												type="text"
-												class="form-control"
-												name="example-required-input"
-												placeholder="Name"
-												style="width: 70%"
-											/>
-										</div>
-										<div
-											class="d-flex mb-4 align-items-center justify-content-between"
-										>
-											<div class="form-label">Billing Plan</div>
-											<select
-												class="form-select"
-												style="width: 70%"
-												name="example-required-input"
-											>
-												<option value="1">One</option>
-												<option value="2">Two</option>
-												<option value="3">Three</option>
-											</select>
-										</div>
+              <div class="col-12">
+                <div class="card">
+                  <div class="card-body p-4" style="width: 50%">
+                    <div
+                      class="d-flex mb-4 align-items-center justify-content-between"
+                    >
+                      <label class="form-label required">Org Name</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="example-required-input"
+                        placeholder="Name"
+                        style="width: 70%"
+                      />
+                    </div>
+                    <div
+                      class="d-flex mb-4 align-items-center justify-content-between"
+                    >
+                      <div class="form-label">Billing Plan</div>
+                      <select
+                        class="form-select"
+                        style="width: 70%"
+                        name="example-required-input"
+                      >
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
 
-										<div
-											class="d-flex mb-4 align-items-center justify-content-between"
-										>
-											<div class="form-label">Logo</div>
-											<input
-												type="file"
-												class="form-control"
-												style="width: 70%"
-											/>
-										</div>
-										<div
-											class="d-flex mb-4 align-items-center justify-content-between"
-										>
-											<label class="form-label required"
-												>No. of Users Limit</label
-											>
-											<input
-												type="text"
-												class="form-control"
-												name="example-required-input"
-												placeholder=""
-												style="width: 70%"
-											/>
-										</div>
+                    <div
+                      class="d-flex mb-4 align-items-center justify-content-between"
+                    >
+                      <div class="form-label">Logo</div>
+                      <input
+                        type="file"
+                        class="form-control"
+                        style="width: 70%"
+                      />
+                    </div>
+                    <div
+                      class="d-flex mb-4 align-items-center justify-content-between"
+                    >
+                      <label class="form-label required"
+                        >No. of Users Limit</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="example-required-input"
+                        placeholder=""
+                        style="width: 70%"
+                      />
+                    </div>
 
-										<div
-											class="d-flex mb-4 align-items-center justify-content-between"
-											style="width: 40%"
-										>
-											<span class="form-label required"
-												>Block Organisation</span
-											>
-											<span class="col-auto">
-												<label
-													class="form-check form-check-single form-switch"
-												>
-													<input
-														class="form-check-input"
-														type="checkbox"
-														checked
-													/>
-												</label>
-											</span>
-										</div>
+                    <div
+                      class="d-flex mb-4 align-items-center justify-content-between"
+                      style="width: 40%"
+                    >
+                      <span class="form-label required"
+                        >Block Organisation</span
+                      >
+                      <span class="col-auto">
+                        <label class="form-check form-check-single form-switch">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            checked
+                          />
+                        </label>
+                      </span>
+                    </div>
 
-										<div class="d-flex justify-content-end">
-											<a href="#" class="btn btn-link">Cancel</a>
-											<button
-												type="submit"
-												class="btn btn-primary ms-2"
-												style="width: 120px"
-											>
-												Save
-											</button>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</body>
+                    <div class="d-flex justify-content-end">
+                      <a href="#" class="btn btn-link">Cancel</a>
+                      <button
+                        type="submit"
+                        class="btn btn-primary ms-2"
+                        style="width: 120px"
+                      >
+                        Save
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
